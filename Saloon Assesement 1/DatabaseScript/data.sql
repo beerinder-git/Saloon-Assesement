@@ -6,6 +6,7 @@ INSERT INTO [dbo].[Parlour] ([Parlour_ID], [Parlour_Name], [Parlour_Address], [C
 INSERT INTO [dbo].[Parlour] ([Parlour_ID], [Parlour_Name], [Parlour_Address], [Contact_Number]) VALUES (5, N'Kess', N'wellington', 22456677)
 INSERT INTO [dbo].[Parlour] ([Parlour_ID], [Parlour_Name], [Parlour_Address], [Contact_Number]) VALUES (6, N'Kess', N'Rotoura', 22342678)
 SET IDENTITY_INSERT [dbo].[Parlour] OFF
+
 SET IDENTITY_INSERT [dbo].[Beautician] ON
 INSERT INTO [dbo].[Beautician] ([Beautician_ID], [Beautician_Name], [Contact_Number], [Joining_Date], [Salary], [ParlourID]) VALUES (1, N'Monika', 226774873, N'2020-12-17 00:00:00', 7687, 1)
 INSERT INTO [dbo].[Beautician] ([Beautician_ID], [Beautician_Name], [Contact_Number], [Joining_Date], [Salary], [ParlourID]) VALUES (2, N'hetal', 99876567, N'2018-12-16 00:00:00', 1200, 1)
